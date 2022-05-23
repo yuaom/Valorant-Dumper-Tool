@@ -72,9 +72,9 @@ DWORD WINAPI Lazy(LPVOID lpParameter)
 
 BOOL WINAPI DllMain(HMODULE module, DWORD reason, LPVOID reserved)
 {
-	if (reason != DLL_PROCESS_ATTACH) return FALSE;
-
-	CloseHandle(CreateThread(NULL, 0, Lazy, NULL, 0, NULL));
-
+	if (ul_reason_for_call == DLL_PROCESS_ATTACH)
+	{
+		CloseHandle(CreateThread(NULL, 0, Lazy, NULL, 0, NULL));
+	}
 	return TRUE;
 };
