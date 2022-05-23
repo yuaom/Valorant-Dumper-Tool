@@ -112,14 +112,14 @@ bool Utils::PrintOffsets()
 	Fmt::PrintMessage("UWorldState -> 0x%X\n", *(uintptr_t*)Offsets::Globals::UWorldState);
 	Fmt::PrintMessage("UWorldKey -> 0x%X\n", *(uintptr_t*)Offsets::Globals::UWorldKey);
 	Fmt::PrintMessage("OwningGameInstance -> 0x%X\n", *(uintptr_t*)Offsets::OwningGameInstance);
-	Fmt::PrintMessage("LocalPlayers = 0x%X\n", *(char*)Offsets::LocalPlayers);
-	Fmt::PrintMessage("LocalPawn = 0x%X\n", *(short*)Offsets::LocalPawn);
-	Fmt::PrintMessage("RootComponent = 0x%X\n", *(short*)Offsets::RootComponent);
-	Fmt::PrintMessage("RootPosition = 0x%X\n", *(short*)Offsets::RootPosition);
-	Fmt::PrintMessage("DamageController = 0x%X\n", *(short*)Offsets::DamageController);
-	Fmt::PrintMessage("CameraPosition = 0x%X\n", *(short*)Offsets::CameraPosition);
-	Fmt::PrintMessage("CameraRotation = 0x%X\n", *(short*)Offsets::CameraRotation);
-	Fmt::PrintMessage("CameraFOV = 0x%X\n", *(short*)Offsets::CameraFOV);
+	Fmt::PrintMessage("LocalPlayers -> 0x%X\n", *(char*)Offsets::LocalPlayers);
+	Fmt::PrintMessage("LocalPawn -> 0x%X\n", *(short*)Offsets::LocalPawn);
+	Fmt::PrintMessage("RootComponent -> 0x%X\n", *(short*)Offsets::RootComponent);
+	Fmt::PrintMessage("RootPosition -> 0x%X\n", *(short*)Offsets::RootPosition);
+	Fmt::PrintMessage("DamageController -> 0x%X\n", *(short*)Offsets::DamageController);
+	Fmt::PrintMessage("CameraPosition -> 0x%X\n", *(short*)Offsets::CameraPosition);
+	Fmt::PrintMessage("CameraRotation -> 0x%X\n", *(short*)Offsets::CameraRotation);
+	Fmt::PrintMessage("CameraFOV -> 0x%X\n", *(short*)Offsets::CameraFOV);
 
 	return true;
 };
