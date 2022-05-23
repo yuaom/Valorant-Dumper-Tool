@@ -4,8 +4,8 @@ VLTool - Valorant Dumper Tool
 A basic offset dumper, credits to peeps on uc for the sigs!
 
 Offsets currently being dumped:
-- UWorldState
-- UWorldKey
+- WorldState
+- WorldKey
 - OwningGameInstance
 - LocalPlayers
 - LocalPawn
