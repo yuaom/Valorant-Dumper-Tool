@@ -1,9 +1,9 @@
 # Valorant-Dumper-Tool
-VLTool - Valorant Dumper Tool
+**VLTool - Valorant Dumper Tool**
 
 A basic offset dumper, credits to peeps on uc for the sigs!
 
-Offsets currently being dumped:
+**Offsets currently being dumped:**
 - WorldState
 - WorldKey
 - OwningGameInstance
@@ -16,4 +16,4 @@ Offsets currently being dumped:
 - CameraRotation
 - CameraFOV
 
-Updated to latest patch 
+**Updated to latest patch**
