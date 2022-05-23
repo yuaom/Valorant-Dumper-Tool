@@ -4,11 +4,11 @@
 A basic offset dumper, credits to peeps on uc for the sigs!
 
 **Offsets currently being dumped:**
-- WorldState
-- WorldKey
+- Key
+- State
 - OwningGameInstance
 - LocalPlayers
-- LocalPawn
+- Pawn
 - RootComponent
 - RootPosition
 - DamageController
